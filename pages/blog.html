@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jehan D. Daftari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Georgia&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Jehan D. Daftari</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!--<li><a href="media.html">Media</a></li>-->
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <!--<li><a href="events.html">Events</a></li>-->
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-line"></div>
+            <p><br><br>Student, EE Department</p>
+            <p>BITS Pilani K K Birla Goa Campus</p>
+        </div>
+    </header>
+    <section id="top-section">
+        <div class="text">
+            <h2
+                style="font-size: 57px;font-family: Georgia,Times,Times New Roman,serif;text-shadow: 2px 0 #000000;letter-spacing:0;font-weight:bold;">
+                <b>Blog.</b>
+            </h2>
+        </div>
+    </section>
+
+    <section class="blogs">
+        <div class="header-bar" style="justify-content: flex-start;">
+            <a href="#" class="all-posts" id="all-posts-link">All Posts</a>
+            <div class="search-bar">
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" placeholder="Search ..." id="search-input" onkeyup="myFunction()">
+                <span class="clear-icon">&#x2715;</span>
+            </div>
+        </div>
+
+        <div class="latest-posts">
+            <!--<div class="post">
+                    <img src="path_to_image_1" alt="Post Image">
+                    <div class="post-content">
+                        <h2>System.out.println("Hello World");</h2>
+                        <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and
+                            entices your audience to continue reading...</p>
+                        <a href="blog_post_template.html">Continue Reading</a>
+                    </div>
+                </div>-->
+            <!--<div class="post">
+                    <img src="path_to_image_2" alt="Post Image">
+                    <div class="post-content">
+                        <h2>Another Blog Post Title</h2>
+                        <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and
+                            entices your audience to continue reading...</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="path_to_image_3" alt="Post Image">
+                    <div class="post-content">
+                        <h2>Yet Another Blog Post Title</h2>
+                        <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and
+                        entices your audience to continue reading...</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>-->
+        </div>
+
+        <div class="all-posts-container" id="all-posts-container" style="display: none;">
+            <!-- Container for all posts, initially hidden -->
+            <!--<div class="post">
+                <img src="path_to_image_3" alt="Post Image">
+                <div class="post-content">
+                    <h2>Yet Another Blog Post Title</h2>
+                    <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and
+                        entices your audience to continue reading...</p>
+                    <a href="#">Continue Reading</a>
+                </div>
+            </div>
+            <div class="post">
+                //Example of another additional post, adjust as needed
+                <img src="path_to_image_5" alt="Post Image">
+                <div class="post-content5">
+                    <h2>Fifth Blog Post Title</h2>
+                    <p>Create a blog post subtitle...</p>
+                    <a href="#">Continue Reading</a>
+                </div>
+            </div>
+            //Add more posts as necessary
+        </div>-->
+    </section>
+
+    <img src="../assets/gifs/bloglc.gif" alt="Image above footer" class="full-width-image">
+
+    <footer class="footer">
+        <p>&copy; 2024 Jehan Daftari. All rights reserved.</p>
+        <div class="footer-icons">
+            <a href="https://drive.google.com/file/d/1YpF-rKyr0uhq1d54SBvW5NVFfcE4o7VO/view?usp=sharing" target="_blank"
+                class="icon-link"><strong>CV</strong></a>
+            <a href="https://www.facebook.com/jehan.daftari.9" target="_blank" class="icon-link"><i
+                    class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/jehan-daftari" target="_blank" class="icon-link"><i
+                        class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/jehan.daftari/" target="_blank" class="icon-link"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jehan-daftari/" target="_blank" class="icon-link"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:f20231258@goa.bits-pilani.ac.in" target="_blank" class="icon-link"><i
+                    class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/918767844449" target="_blank" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="../js/blog_script.js"></script>
+</body>
+
+</html>
