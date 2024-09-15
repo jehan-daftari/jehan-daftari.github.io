@@ -838,6 +838,10 @@ section {
     margin-left: 8px;
 }
 
+.resume-download-button {
+    display:none;
+}
+
 #post-back {
     background-color: #91ABA5;
 }
@@ -1214,82 +1218,3 @@ section {
     /* Ensure image fits into circular border */
 }
 
-@media screen and (max-width: 481px) {
-    .header-content {
-        text-align: center;
-    }
-    
-    nav {
-        display: flex;
-        justify-content:center;
-        margin-top: 5px;
-        margin-bottom: 1px;
-    }
-
-    .header-content p {
-        text-align: center;
-    }
-
-    .footer-icons {
-        margin-left: auto;
-        display: flex;
-        gap: 25px;
-        font-size: 0.7em;
-    }
-
-    .white-rectangle {
-        width: 90vw;
-        height: 1150px;
-        /* Height of the rectangle */
-        background-color: rgba(255, 255, 255, 0.99);
-        /* White background */
-        box-shadow: none;
-        border: none;
-        /* Optional: Add border */
-        justify-content: center;
-        padding: 10px;
-        padding-bottom: 24px;
-    }
-
-    .contact-grid {
-        grid-template-columns: 1fr;
-        margin-top: 100px;
-    }
-
-    .contact-item {
-        margin-top: 35px;
-        text-align: center;
-    }
-
-    .address{
-        text-align: center;
-        justify-content: center;
-    }
-
-    .address p{
-        padding: 0 0 0 0 !important;
-    }
-
-    .email{
-        text-align: center;
-        justify-content: center;
-    }
-
-    .email p{
-        padding: 0 0 0 0 !important;
-    }
-
-    .phone {
-        text-align: center;
-        justify-content: center;
-        margin-top: 40px;
-    }
-
-    .contact-social {
-        margin-top: auto;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 5px;
-    }
-}
