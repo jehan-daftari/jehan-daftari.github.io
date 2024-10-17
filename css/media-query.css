@@ -21,6 +21,13 @@
         font-size: 0.7em;
     }
 
+    h1 {
+        max-width: 100%;
+        word-break: break-word; /* Ensures long names or words wrap properly */
+        font-size: 1.5em; /* Adjust the font size for small screens if needed */
+        text-align: center; /* Ensure the text stays centered */
+    }
+
     .resume-text h2{
         text-align: center;
         justify-content: center;
@@ -114,15 +121,27 @@
         margin-bottom: 5px;
     }
 
+
+    .profile h2{
+        margin-left: -85px;
+    }
+
     .profile-container{
         max-width: 100vw;
+    }
+
+    .profile-container img{
+        max-width: 40vw;
+        margin-left: auto;
     }
     
     .profile-text {
         text-align: left;
         justify-content: left;
         color: #000;
-        max-width: 100vw;
+        max-width: 49vw;
+        margin-left: auto;
+        margin-right: 10px;
     }
 
     .profile-text h2 {
