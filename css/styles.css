@@ -171,7 +171,7 @@ nav ul li a.active {
     position: relative;
     /* Ensure proper positioning for child elements */
     width: 100%;
-    height:calc(100vw/3);
+    height:calc(197vw/3);
     padding: 0;
 }
 
