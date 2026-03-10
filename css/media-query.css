@@ -17,7 +17,7 @@
     .footer-icons {
         margin-left: auto;
         display: flex;
-        gap: 25px;
+        gap: 12px;
         font-size: 0.7em;
     }
 
@@ -464,4 +464,213 @@
         border-radius: 50%;
         /* Ensure image fits into circular border */
     }
+
+    .latest-posts-home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 65px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+    .post {
+    display: flex;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: auto;
+    max-width: 80%;
+    align-self: center;
+    /* Adjusted height as needed */
+    margin-bottom: 42px;
+    /* Add margin bottom for spacing between posts */
+}
+
+.post img {
+    width: 40%;
+    height: 100%;
+    /* Ensure image fills the height of the post */
+    margin-right: 20px;
+    /* Adjusted margin */
+    /* Ensures image covers the entire area */
+    justify-self: left;
+}
+
+.post-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post h2 {
+    font-size: 0.8em;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #30574E;
+}
+
+.post p {
+    font-size: 0.6em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.post a {
+    font-size: 0.8em;
+    color: #633761;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.post a:hover {
+    color: #FEE6C4;
+}
+
+.all-posts-container {
+    gap: 20px;
+}
+
+#post-back {
+    background-color: #91ABA5;
+}
+
+.white-rectangle-post {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    /* Width of the rectangle */
+    height: auto;
+    /* Height of the rectangle */
+    background-color: rgba(255, 255, 255, 0.99);
+    /* White background */
+    box-shadow: none;
+    border: none;
+    /* Optional: Add border */
+    justify-content: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.white-rectangle-post p {
+    text-align: left;
+    margin-top: 27px;
+    margin-left: 10px;
+    font-size: 90%;
+}
+
+.white-rectangle-post p a {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Use the inherited color */
+}
+
+.white-rectangle-post .posting-area {
+    border: 1px solid #FEE6C4;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    padding: 20px;
+    /* Adjust padding inside posting area as needed */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+    flex: 1;
+    width: auto;
+}
+
+.blog_post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog_author-info {
+    display: flex;
+    align-items: center;
+}
+
+.blog_author-image {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.blog_author-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.blog_author-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_author-name {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 1;
+}
+
+.blog_author-name img {
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+.blog_author-meta {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.dot-separator {
+    margin: 0 5px;
+}
+
+.blog_post-options {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.blog_post-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.blog_post-content p {
+    width: 100%;
+}
+
+.blog_post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.tiny-quote p {
+    margin-top: -12px;
+    margin-left: 32px;
+    text-align: right;
+}
+
 }
